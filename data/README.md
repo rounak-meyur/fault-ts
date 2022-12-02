@@ -37,7 +37,7 @@ The description of each csv file are provided here.
 
 
 The directory _ieee68_ contains the time series dataset for the bus voltage phase angles during different faults. The files are named as follows
-> angle-`<fault>`-`<condition>`
+> angle-`<fault>`-`<condition>`.csv
 - *fault*: this denotes the fault identifier from the _ieee68-faults.csv_ file. Refere to the _ieee68-faults.csv_ file to get the location of the fault.
 - *condition*: this denotes the condition of the simulation.
     - _trip_: the faulted bus is tripped after the fault occurs and records are stored only for generator buses.
