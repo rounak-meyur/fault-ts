@@ -28,10 +28,10 @@ The description of each csv file are provided here.
 
 - _ieee-nodelist.csv_: This file contains the node attributes.
     - node: ID of the node in the power grid
-    - pgen: real power generation at node (in MVA)
-    - qgen: reactive power generation at node (in MVA)
-    - pmax: maximum real power capacity (in MVA)
-    - qmax: maximum reactive power capacity (in MVA)
+    - pgen: real power generation at node (in MW)
+    - qgen: reactive power generation at node (in MVAR)
+    - pmax: maximum real power capacity (in MW)
+    - qmax: maximum reactive power capacity (in MVAR)
     - sload: load consumption at node (in MVA)
 
 
